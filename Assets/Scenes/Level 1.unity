@@ -398,8 +398,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  xRange: 9
-  yRange: 4
+  xRange: 6.5
+  yRange: 3.5
+  positionPitchFactor: -5
+  controlPitchFactor: -20
+  positionYawFactor: -5
+  controlRollFactor: -20
 --- !u!4 &903136920 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4141941610967213301, guid: 566e88e8e95be4608b1c5d6067c356d2,
@@ -458,7 +462,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 45
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -782,7 +786,7 @@ PrefabInstance:
     - target: {fileID: 4141941610967213301, guid: 566e88e8e95be4608b1c5d6067c356d2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4141941610967213301, guid: 566e88e8e95be4608b1c5d6067c356d2,
         type: 3}
