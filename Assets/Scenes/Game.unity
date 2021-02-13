@@ -304,7 +304,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -660.5, y: -431.5}
+  m_AnchoredPosition: {x: -660.5, y: -431.49902}
   m_SizeDelta: {x: -1384.7144, y: -920.82074}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &384749018
@@ -816,7 +816,7 @@ PrefabInstance:
     - target: {fileID: 2395643349636294152, guid: 7b5f1106af1e54fde9b7a6f96d186a64,
         type: 3}
       propertyPath: m_Name
-      value: Ship_02
+      value: Hawk
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b5f1106af1e54fde9b7a6f96d186a64, type: 3}
@@ -1193,22 +1193,22 @@ PrefabInstance:
     - target: {fileID: 8250612399241400349, guid: ffce11b8c254345e38ec4d4d0115578f,
         type: 3}
       propertyPath: m_Name
-      value: Ship_03
+      value: Falcon
       objectReference: {fileID: 0}
     - target: {fileID: 8255796438887070737, guid: ffce11b8c254345e38ec4d4d0115578f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 67.399994
+      value: 110.4
       objectReference: {fileID: 0}
     - target: {fileID: 8255796438887070737, guid: ffce11b8c254345e38ec4d4d0115578f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.6
+      value: 29.2
       objectReference: {fileID: 0}
     - target: {fileID: 8255796438887070737, guid: ffce11b8c254345e38ec4d4d0115578f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 460.2
+      value: 475.6
       objectReference: {fileID: 0}
     - target: {fileID: 8255796438887070737, guid: ffce11b8c254345e38ec4d4d0115578f,
         type: 3}
@@ -1252,6 +1252,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffce11b8c254345e38ec4d4d0115578f, type: 3}
+--- !u!1 &2129818420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8250612399241400349, guid: ffce11b8c254345e38ec4d4d0115578f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2129818419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2129818421
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129818420}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &2129818422
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129818420}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 6d5af98966c3248739e9e6f1bd6d3f51, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 8744959420100785902, guid: 6d5af98966c3248739e9e6f1bd6d3f51, type: 2}
+    value: {fileID: 2129818421}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1001 &4827602925321811714
 PrefabInstance:
   m_ObjectHideFlags: 0
